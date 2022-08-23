@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+}
+.form-component {
+  padding: 20px;
+}
+
+.first-name {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.last-name {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.email{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.submit-btn{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+
+.submit-btn >button {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'open sans';
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+label {
+  display:inline-block;
+  width: 40%;
+  padding: 10px;
+  font-family: 'open sans';
+
+}
+span {
+  color: red;
+  display: inline-block;
+  text-align: center;
+  font-family: 'open sans';
+}
+
+.result {
+  display: inline;
+  font-family: 'open sans';
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
